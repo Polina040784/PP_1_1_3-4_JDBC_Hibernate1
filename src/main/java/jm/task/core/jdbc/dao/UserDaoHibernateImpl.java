@@ -15,7 +15,6 @@ public class UserDaoHibernateImpl implements UserDao {
     public UserDaoHibernateImpl() {
 
     }
-
     SessionFactory sessionFactory = getSessionFactory();
     Transaction transaction = null;
     @Override
